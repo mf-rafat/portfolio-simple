@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@400;600;700;800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* common css  BUTTON  primnary , dark-color */
+
+.header{
+    background-image: url('/images/developer.png'), url(/images/header_bg.png) ;
+    background-repeat: no-repeat;
+    background-position: top left, bottom right ;
+}
+
+.btn-primary{
+    background-color: #FD6E0A;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+.dark-clr{
+    color: #474747;
+}
+
+ /* header navigations parts  */
+
+ nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0 50PX;
+ }
+
+ .text-primary{
+    color: chocolate;
+ }
+ ul{
+    display: flex;
+    align-items: center;
+
+ }
+
+.nav-header{
+    font: weight 800px;
+    font-size: 24px;
+}
+nav > ul > li{
+    list-style: none;
+   margin-right:  25px;
+}
+nav > ul > li > a{
+    color: #000000;
+    text-decoration: none;
+
+}
+ nav> ul> li:hover {
+    background-color: slategrey;
+ }
+
+/* header bannner part */
+
+.banner{
+display: flex;
+justify-content: space-between;
+margin: 0 35px 0 100px;
+}
+.banner-contant{
+    max-width: 585px;
+    margin: auto;
+}
+.banner-greading{
+    
+    font-weight:600;
+    font-size: 45px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 85px;
+    margin: 15px 0;
+}
+.banner-discription{
+    margin: 15px 0;
+}
+
+.banner-picture{
+    width: 580px;
+}
